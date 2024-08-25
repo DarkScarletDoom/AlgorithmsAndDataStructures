@@ -11,7 +11,7 @@ class Queue {
     // Удалить и вернуть первый элемент очереди
     public function dequeue() {
         if ($this->isEmpty()) {
-            return null; // или можно бросить исключение
+            return null;
         }
         return array_shift($this->items);
     }

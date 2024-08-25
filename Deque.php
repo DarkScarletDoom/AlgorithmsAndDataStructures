@@ -16,7 +16,7 @@ class Deque {
     // Удалить и вернуть элемент с начала дека
     public function removeFront() {
         if ($this->isEmpty()) {
-            return null; // или выбросить исключение
+            return null;
         }
         return array_shift($this->items);
     }

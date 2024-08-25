@@ -24,14 +24,13 @@ include 'Stack.php';
 // $doublyLinkedList->append(2);
 // $doublyLinkedList->append(3);
 // echo "Вывод вперед: ";
-// $doublyLinkedList->displayForward(); // 1 <-> 2 <-> 3 <-> null
+// $doublyLinkedList->displayForward(); 
 // echo "Вывод назад: ";
-// $doublyLinkedList->displayBackward(); // 3 <-> 2 <-> 1 <-> null
-// echo "Поиск 2: " . ($doublyLinkedList->search(2) ? "найден" : "не найден") . "\n"; // найден
-// echo "Поиск 4: " . ($doublyLinkedList->search(4) ? "найден" : "не найден") . "\n"; // не найден
-// $doublyLinkedList->delete(2);
+// $doublyLinkedList->displayBackward();
+// echo "Поиск 2: " . ($doublyLinkedList->search(2) ? "найден" : "не найден") . "\n";
+// echo "Поиск 4: " . ($doublyLinkedList->search(4) ? "найден" : "не найден") . "\n";
 // echo "После удаления 2: ";
-// $doublyLinkedList->displayForward(); // 1 <-> 3 <-> null
+// $doublyLinkedList->displayForward();
 
 # Пример использования очереди
 // $queue = new Queue();
